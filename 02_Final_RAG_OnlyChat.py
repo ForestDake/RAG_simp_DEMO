@@ -7,7 +7,7 @@ from langchain.chat_models import ChatOpenAI
 ##from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 
-path_db = "/Users/qicao/Documents/GitHub/RAG_langchain/data/DB"
+path_db = "/Users/qicao/Documents/GitHub/RAG_simp_DEMO/data/DB"
 
 #Define a function to combine Query and the data found from RAG Vector DB.
 def augment_prompt(query:str):
